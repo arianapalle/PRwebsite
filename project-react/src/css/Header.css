@@ -1,4 +1,4 @@
-.logo {
+header .logo {
     width: 100vw;
     position: fixed;
     background-color: #FAEFDC;
@@ -10,7 +10,7 @@
     border-bottom: 1px #5D3125;
 }
 
-.logo img {
+header .logo img {
     margin-top: 20px;
     margin-bottom: 20px;
     max-height: 70px;
