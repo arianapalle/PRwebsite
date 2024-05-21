@@ -192,31 +192,30 @@ footer .socialIcon i{
 
 
 .sectionone {
-    height: 95%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 100px;
+    margin: 0 80px;
     padding-top: 100px;
+    padding-bottom: 50px;
 }
 .sectionone .s1_left-col{
     width: 50%;
 }
 
 .sectionone img{
-    height: 70%;
+    height: 80%;
     float: right;
-    padding: 70px;
+    padding: 50px;
 }
 
 .sectionone .s1_right-col{
-    flex: 1;
-    width: 50%;
-    margin-right: 200px;
+    margin-right: 50px;
 }
 
 .s1_right-col h1{
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     font-size: 50px;
     color: #5c1c09;
 }
@@ -224,11 +223,11 @@ footer .socialIcon i{
 .s1_right-col h2{
     color: #5D3125;
     font-weight: 600;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .s1_right-col p{
-    margin-top: 35px;
+    margin-top: 25px;
     font-size: 20px;
     color: #5D3125;
     line-height: 1.5;
@@ -272,4 +271,8 @@ footer .socialIcon i{
 
 .s2_right-col {
     width: 50%;
+}
+
+.s2_right-col img{
+    width: 80%;
 }
