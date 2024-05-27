@@ -6,6 +6,7 @@ body {
     
 }   
 
+<<<<<<< HEAD:PRstyle.css
 header .logo {
     width: 100vw;
     height: 100px;
@@ -84,6 +85,8 @@ nav .main-menu .submenu li a {
     font-size: 16px;
 }
 
+=======
+>>>>>>> 84c668ed88a60fe33f220877f143fb92d36e6d0f:project-react/src/css/Home.css
 .sectionone {
     position: relative;
     height: 100vh;
@@ -125,6 +128,7 @@ nav .main-menu .submenu li a {
 }
 
 .sectiontwo {
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -308,110 +312,4 @@ nav .main-menu .submenu li a {
 .s5_right-col button:hover{
     background: #68544f ;
 
-}
-
-/*footer*/
-
-footer{
-    border-top: 1px solid #a93e1f;
-    background: #f3dec7;
-    padding: 50px 0 35px;
-    position: relative;
-}
-  
-footer .footer-left,
-footer .footer-center,
-footer .footer-right{
-    display: inline-block;
-    vertical-align: top;
-}
-   
-footer .footer-left{
-    text-align: center;
-    width: 35%;
-    color: #5D3125;
-}
-
-
-footer img{
-    width: 50%;
-}
-  
-footer .footer-center{
-    width: 35%;
-}
-  
-footer .footer-center i{
-    background-color:  #5D3125;
-    color: #FAEFDC;
-    font-size: 18px;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 37px;
-    margin: 10px 15px;
-    vertical-align: middle;
-}
-  
-footer .footer-center p{
-    display: inline-block;
-    color:#5D3125;
-    font-weight:400;
-    vertical-align: middle;
-    margin:0;
-    font-size: 14px;
-}
-   
-footer .footer-center p a{
-    color:  #c53b15;
-    text-decoration: none;;
-}
-   
-footer .footer-right{
-    width: 20%;
-}
-  
-footer .footer-right{
-    line-height: 20px;
-    color:  #7a7270;
-    font-size: 14px;
-    font-weight: normal;
-    margin: 0;
-}
-
-  
-footer .footer-right span{
-    display: block;
-    color:  #ffffff;
-    font-size: 14px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-  
-footer .socialIcon{
-    margin-top: 25px;
-}
-  
-footer .socialIcon i{
-    background-color: #5D3125;
-    color: #FAEFDC;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
-    border-radius: 50%;
-    font-size: 18px;
-    text-align: center;
-    margin-right: 3px;
-    margin-bottom: 5px;
-}
-
-.footer-line{
-    border: 0;
-    height: 1px;
-    background-color: #5d3125ba;
-    margin: 30px 80px;
 }
